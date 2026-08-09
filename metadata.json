@@ -1,0 +1,6 @@
+{
+  "name": "ChemBalance Pro - Chemical Equations & Kinetic Physics Simulator",
+  "description": "An interactive PhET-style chemical equation balancer and kinetic energy molecular collision simulator featuring real-time feedback, curriculum benchmarks, teacher analytics, AI chemistry tutoring, and multi-language support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

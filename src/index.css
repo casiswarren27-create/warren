@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-grid-dots {
+    background-image: radial-gradient(#334155 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+  .glow-sky {
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.35);
+  }
+  .glow-red {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.35);
+  }
+  .glow-blue {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.35);
+  }
+}
+
+/* Custom sleek scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #08090c;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
